@@ -4,7 +4,6 @@ int main(){
   for(start=1;start<=end;start++){
     if(start!=end){
         printf("%d+",start,start);
-
     }
     else{
     printf("%d+",start,start);
@@ -13,4 +12,3 @@ int main(){
   }
   printf("%d",sum);
  }
- 

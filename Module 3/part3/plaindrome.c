@@ -18,6 +18,6 @@ int main(){
     else{
         printf("num1 is not plaindrome");
     }
-    // printf(" \n the reverse number is %d",rev);
+   
 }
 } 

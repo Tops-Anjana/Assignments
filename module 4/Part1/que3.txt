@@ -1,0 +1,12 @@
+Que3.What is the difference between OOP and POP?
+Ans=> Difference between OOP and POP:
+1.OOP is Object oriented ,whereas POP is Structure oriented.
+2.Program is divided into objects in OOP ,whereas in POP Program is divided into functions.
+3.OOP has Bottom-up approach , whereas POP has Top-down approach.
+4.Inheritance property is used in OOP , but in POP Inheritance is not allowed.
+5.OOP  uses access specifier, whereas POP doesn’t use access specifier.
+6.In OOP Encapsulation is used to hide the data ,but in POP there is No data hiding.
+7.Concept of virtual functionis used in OOP ,In POP No virtual function.
+8. Object functions are linked through message passing IN OOP ,but in POP Parts of program are linked through parameter passing.
+9.In OOP Adding new data and functions is easy,but In POP Expanding new data and functions is not easy.
+10.In OOP the existing code can be reused.but In POP No code reusability.

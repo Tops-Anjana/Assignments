@@ -8,7 +8,7 @@ int size,arr[5];
     scanf("%d",&arr[i]);
  }
      printf("Reversed Array is:\n");  
-    for(int i=size;i>=1;i--){ 
+    for(int i=size;i>0;i--){ 
         printf("%d\n", arr[i]);
   } 
 }

@@ -1,16 +1,12 @@
 //(1)+(1+2)+(1+2+3)+(1+2+3+4)....
 #include<stdio.h>
 int main(){
- int start,end=10,sum=0;
-  for(start=1;start<=end;start++){
-    if(start!=end){
-        printf("(%d)+",start);
-    }
-    else{
-    printf("(%d)+",start);
-    }
-    sum+=(start+start);
+ int st,end=10,sum=0;
+  for(st=1;st<=end;st++){
+   for(int j=1;j<=st;j++){
+    sum+=j;
+   }
   }
-  printf("%d",sum);
+  printf("the series sum is:(1)+(1+2)+(1+2+3)+(1+2+3+4)....:%d",sum);
  }
  
