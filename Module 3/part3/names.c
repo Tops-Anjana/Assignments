@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
     int i;
-    char name[20];
-    
-    printf("Enter numbers:");
-    for(i=1;i<=5;i++){
-        scanf("%s",&name);
+    char name[5][20];    
+    printf("Enter names:\n");
+    for (i=0;i<5;i++){
+        printf("Enter name %d:",i+1);
+        gets(name[i]);
     }
-    for(i=1;i<=5;i++){
-        printf("%s \n",name);
+    printf("\nEntered names:\n");
+    for (i=0;i<5;i++){
+        printf("Name %d :%s \n",i+1,name[i]);
     }
-
 }

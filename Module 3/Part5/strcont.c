@@ -4,7 +4,7 @@ int main(){
     int i,count=0;
     char str[30];
     printf("Enter the string");
-    scanf("%s",&str);
+  gets(str);
     for(i=0;str[i]!='\0';i++){
      if(str[i]==' ' && str[i+1]!=' ')
       count++;    

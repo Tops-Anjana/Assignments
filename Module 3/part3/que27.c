@@ -8,8 +8,7 @@
         }
         else{
             sum-=start/(start+1);
-        }
-      
+        } 
     }
       printf("%f",sum);
  }

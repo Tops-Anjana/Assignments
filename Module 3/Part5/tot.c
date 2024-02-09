@@ -4,7 +4,7 @@ int main(){
     char str[50];
     int i=0,occ[i];
     printf("Enter String:");
-    scanf("%s",&str);  
+    gets(str);
     while(str[i] != '\0'){
    occ[i]= (int)str[i];
    occ[i]+=1;
@@ -15,5 +15,5 @@ for(i=0;i<50;i++){
    if(occ[i] > occ[max])
       max = i;
 }
-   printf("The maximum occurance of the string is:%d",max);
+   printf("The maximum characters of the string is:%d",max);
 }
